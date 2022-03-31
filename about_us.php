@@ -65,9 +65,26 @@ require "includes/common.php";
                             </ol>
                         </div>
                 </div>
+                <div class="join-us"></div>
             </div>
             
         </div>
+    <script
+      src="https://unpkg.com/react@16/umd/react.production.min.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"
+      crossorigin
+    ></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    
+  <script type="text/babel" src="JoinUs.js"></script>
+   <script type="text/babel">
+      ReactDOM.render(<JoinUs/>, document.querySelector(".join-us"));
+    </script>
+       
+            
         <?php include 'includes/footer.php'; ?>
     </body>
 </html>

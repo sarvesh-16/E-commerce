@@ -85,7 +85,7 @@ Thanks for your comments! You make us better.</p>
                     </div>
 				    
                     <div class="form-group col-sm-9">
-                        <input type="email" id="email" name="email" class="form-control" placeholder="Email">
+                        <input type="email" id="email" name="email" class="form-control" placeholder="Email" autocomplete="off">
 			 <span id="emailname" class="text-danger"></span>	   
                     </div>
                     <div class="form-group col-sm-9">
